@@ -1,0 +1,7 @@
+saida.txt
+
+# Ignorar todas as pastas
+*/
+
+# Exceção: não ignore arquivos ocultos (opcional)
+!.gitignore
