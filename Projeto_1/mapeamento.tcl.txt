@@ -1,0 +1,92 @@
+#============================================================
+# HEX0
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to segments1[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to segments1[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to segments1[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to segments1[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to segments1[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to segments1[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to segments1[6]
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to segments2[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to segments2[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to segments2[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to segments2[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to segments2[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to segments2[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to segments2[6]
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to intercambia[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to intercambia[1]
+
+set_location_assignment PIN_AE26 -to segments1[0]
+set_location_assignment PIN_AE27 -to segments1[1]
+set_location_assignment PIN_AE28 -to segments1[2]
+set_location_assignment PIN_AG27 -to segments1[3]
+set_location_assignment PIN_AF28 -to segments1[4]
+set_location_assignment PIN_AG28 -to segments1[5]
+set_location_assignment PIN_AH28 -to segments1[6]
+
+set_location_assignment PIN_AJ29 -to segments2[0]
+set_location_assignment PIN_AH29 -to segments2[1]
+set_location_assignment PIN_AH30 -to segments2[2]
+set_location_assignment PIN_AG30 -to segments2[3]
+set_location_assignment PIN_AF29 -to segments2[4]
+set_location_assignment PIN_AF30 -to segments2[5]
+set_location_assignment PIN_AD27 -to segments2[6]
+
+set_location_assignment PIN_AB23 -to intercambia[0]
+set_location_assignment PIN_AE29 -to intercambia[1]
+
+#============================================================
+# LEDs
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to LEDR[3]
+
+set_location_assignment PIN_V16 -to LEDR[0]
+set_location_assignment PIN_W16 -to LEDR[1]
+set_location_assignment PIN_V17 -to LEDR[2]
+set_location_assignment PIN_V18 -to LEDR[3]
+
+#============================================================
+# binary_input1itches
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to binary_input1[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to binary_input1[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to binary_input1[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to binary_input1[3]
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to binary_input2[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to binary_input2[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to binary_input2[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to binary_input2[3]
+
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to intercambia[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to intercambia[1	]
+
+set_location_assignment PIN_AB12 -to binary_input1[0]
+set_location_assignment PIN_AC12 -to binary_input1[1]
+set_location_assignment PIN_AF9 -to binary_input1[2]
+set_location_assignment PIN_AF10 -to binary_input1[3]
+set_location_assignment PIN_AD11 -to binary_input2[0]
+set_location_assignment PIN_AD12 -to binary_input2[1]
+set_location_assignment PIN_AE11 -to binary_input2[2]
+set_location_assignment PIN_AC9 -to binary_input2[3]
+set_location_assignment PIN_AE12 -to intercambia[9]
+
+#============================================================
+# LEDs
+#============================================================
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to KEY[3]
+
+set_location_assignment PIN_AA14 -to KEY[0]
+set_location_assignment PIN_AA15 -to KEY[1]
+set_location_assignment PIN_W15 -to KEY[2]
+set_location_assignment PIN_Y16 -to KEY[3]
